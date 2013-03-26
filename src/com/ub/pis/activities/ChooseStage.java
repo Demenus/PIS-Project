@@ -1,15 +1,14 @@
 package com.ub.pis.activities;
 
-import com.ub.pis.R;
-
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.ub.pis.R;
 
 public class ChooseStage extends BaseActivity {
 	private ListView listView1;
