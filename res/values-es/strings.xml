@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PIS</string>
+    <string name="action_settings">Configuración</string>
+    <string name="nombre_app">Machango Fight</string>
+    <string name="user_text">Usuario</string>
+    <string name="password_text">Contraseña</string>
+    <string name="forgot_text">¿Has olvidado tu contraseña?</string>
+    <string name="register_text">Registrarse</string>
+    <string name="user_text_pista">Nombre de usuario</string>
+    <string name="password_text_pista">Contraseña</string>
+    <string name="title_activity_register">Registrarse</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_buton">Entrar</string>
+    <string name="title_activity_menu_principal">MenuPrincipal</string>
+    <string name="playNow_button">Jugar</string>
+    <string name="highscores_button">Puntuaciones</string>
+    <string name="options_button">Opciones</string>
+    <string name="shop_button">Tienda</string>
+    <string name="quit_button">Cerrar</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_choose_stage">ChooseStage</string>
+    <string name="title_activity_loading">Loading</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="waiting_text">Esperando</string>
+    <string name="title_activity_characters">Personajes</string><string name="idioma_text_buto">español</string>
+    <string name="titol_list_view">Escenarios</string>
+    <string name="idioma_es">El idioma actual es: </string>
+
+</resources>

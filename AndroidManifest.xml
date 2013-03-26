@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ub.pis"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:background="@drawable/castillo"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/nombre_app"
+        android:largeHeap="false"
+        android:theme="@style/FullscreenTheme">
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.Register"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.MenuPrincipal"
+            android:label="@string/title_activity_menu_principal"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Settings"
+            android:configChanges="locale"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.ChooseStage"
+            android:label="@string/title_activity_choose_stage"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Waiting"
+            android:label="@string/title_activity_loading"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Characters"
+            android:label="@string/title_activity_characters"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Highscores"
+            android:label="@string/title_activity_stats"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Shop"
+            android:label="@string/title_activity_shop"
+            android:screenOrientation="landscape">
+        </activity>
+		<activity
+            android:name=".activities.GameActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>
